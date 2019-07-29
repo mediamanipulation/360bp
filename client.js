@@ -20,7 +20,7 @@ function init(bundle, parent, options = {}) {
     myFlatSurface0.setAngle(-Math.PI /1.3, 0);
 
     const myFlatSurface1 = new Surface(600, 400, Surface.SurfaceShape.Flat);
-    myFlatSurface1.setAngle(-Math.PI / 4, 0);
+    myFlatSurface1.setAngle(-Math.PI / 3.8, 0);
 
     const myFlatSurface2 = new Surface(600, 400, Surface.SurfaceShape.Flat);
     myFlatSurface2.setAngle(-Math.PI /-3.5, 0);
@@ -35,28 +35,28 @@ function init(bundle, parent, options = {}) {
         }),
         myCylinderSurface
     );
- 
+
     r360.renderToSurface(
         r360.createRoot('Flag0', {
-            image: 'target.png'
+            image: './target.png'
         }),
         myFlatSurface0
     );
     r360.renderToSurface(
         r360.createRoot('Flag1', {
-            image: 'target.png'
+            image: './target.png'
         }),
         myFlatSurface1
     );
     r360.renderToSurface(
         r360.createRoot('Flag2', {
-            image: 'target.png'
+            image: './target.png'
         }),
         myFlatSurface2
     );
     r360.renderToSurface(
         r360.createRoot('Flag3', {
-            image: 'target.png'
+            image: './target.png'
         }),
         myFlatSurface3
     );
